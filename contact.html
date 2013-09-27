@@ -8,14 +8,47 @@
 		html5.js"></script>
 		<![endif]-->
 	<link href="style1.css" rel="stylesheet" type="text/css" />
-	<body>
+	<body id="home">
 	<header>
 		<h1>The Colors of Autism</h1>
 		
-	<nav>
-		<ul>
-			<li><a href="index.html">home</a></li>
-			<li><a href="gallery.html">gallery</a></li>
-			<li><a href="contact.html">contact</a></li>
-		</ul>
-	</nav>
+	<div id="mainNav"
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="gallery.html">gallery</a></li>
+				<li><a href="contact.html">contact</a></li>
+				</ul>
+		</div>
+	
+	<form method="get"action="mailto:sensationalchildinc@gmail.com">
+		First name: <input type="text" name="firstname"><br>
+		Last name: <input type="text" name="lastname">
+		Email:  <input type="text" name="email">
+		<div>
+			<select name=a"reqarding" id="reqarding">
+				<option>General Inquiries</option>
+				<option>Suggestions</option>
+				<option>Product Inquiries</option>
+				<option>Diaper Program</option>
+			</select>
+		</div>
+		<div>
+			<label for="message">Message</label>
+			<textarea rows="15" cols="50" name="message" id="message"></textarea>
+		</div>
+		
+		<div>
+			<input type="checkbox" name="contact_phone" id="contact_phone"/>
+			<p> Please check box if you prefer to be contacted by phone.</p>
+		</div>
+		
+		<div>
+			<button type="submit" name="submit" class="button">Send Message</button>
+		</div>
+		
+	</form>
+
+		<p><b>Note:</b> Any questions, please drop us a note.  We will respond to you within 24 hours.</p>
+
+</body>
+</html>
